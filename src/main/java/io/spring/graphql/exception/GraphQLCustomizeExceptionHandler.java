@@ -21,6 +21,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class GraphQLCustomizeExceptionHandler implements DataFetcherExceptionHandler {
 

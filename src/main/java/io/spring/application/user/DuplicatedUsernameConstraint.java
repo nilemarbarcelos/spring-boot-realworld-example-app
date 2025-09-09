@@ -5,6 +5,7 @@ import java.lang.annotation.RetentionPolicy;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
+
 @Constraint(validatedBy = DuplicatedUsernameValidator.class)
 @Retention(RetentionPolicy.RUNTIME)
 @interface DuplicatedUsernameConstraint {

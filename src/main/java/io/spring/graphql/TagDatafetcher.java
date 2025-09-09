@@ -7,6 +7,7 @@ import io.spring.graphql.DgsConstants.QUERY;
 import java.util.List;
 import lombok.AllArgsConstructor;
 
+
 @DgsComponent
 @AllArgsConstructor
 public class TagDatafetcher {

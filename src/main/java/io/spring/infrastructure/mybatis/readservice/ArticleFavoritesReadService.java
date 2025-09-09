@@ -7,6 +7,7 @@ import java.util.Set;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+
 @Mapper
 public interface ArticleFavoritesReadService {
   boolean isUserFavorite(@Param("userId") String userId, @Param("articleId") String articleId);

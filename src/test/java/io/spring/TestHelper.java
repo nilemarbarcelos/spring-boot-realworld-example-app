@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import org.joda.time.DateTime;
 
+
 public class TestHelper {
   public static ArticleData articleDataFixture(String seed, User user) {
     DateTime now = new DateTime();

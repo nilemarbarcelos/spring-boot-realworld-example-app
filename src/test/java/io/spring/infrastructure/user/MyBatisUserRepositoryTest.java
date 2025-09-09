@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Import;
 
+
 @Import(MyBatisUserRepository.class)
 public class MyBatisUserRepositoryTest extends DbTestBase {
   @Autowired private UserRepository userRepository;

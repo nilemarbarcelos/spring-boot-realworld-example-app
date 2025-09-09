@@ -5,6 +5,7 @@ import io.spring.core.article.Tag;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+
 @Mapper
 public interface ArticleMapper {
   void insert(@Param("article") Article article);

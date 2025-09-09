@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.joda.time.DateTime;
 
+
 @Getter
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")

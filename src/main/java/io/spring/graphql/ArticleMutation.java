@@ -24,6 +24,7 @@ import io.spring.graphql.types.UpdateArticleInput;
 import java.util.Collections;
 import lombok.AllArgsConstructor;
 
+
 @DgsComponent
 @AllArgsConstructor
 public class ArticleMutation {

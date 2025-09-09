@@ -3,6 +3,7 @@ package io.spring.application;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @NoArgsConstructor
 @Data
 public class Page {

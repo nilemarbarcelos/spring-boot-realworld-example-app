@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 public class ErrorResourceSerializer extends JsonSerializer<ErrorResource> {
   @Override
   public void serialize(ErrorResource value, JsonGenerator gen, SerializerProvider serializers)

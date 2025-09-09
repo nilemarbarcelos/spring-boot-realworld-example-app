@@ -4,6 +4,7 @@ import io.spring.application.CursorPager.Direction;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Data
 @NoArgsConstructor
 public class CursorPageParameter<T> {

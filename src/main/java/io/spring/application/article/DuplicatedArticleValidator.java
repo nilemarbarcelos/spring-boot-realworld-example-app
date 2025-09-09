@@ -6,6 +6,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
+
 class DuplicatedArticleValidator
     implements ConstraintValidator<DuplicatedArticleConstraint, String> {
 

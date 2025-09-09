@@ -3,6 +3,7 @@ package io.spring.application;
 import java.util.List;
 import lombok.Getter;
 
+
 @Getter
 public class CursorPager<T extends Node> {
   private List<T> data;

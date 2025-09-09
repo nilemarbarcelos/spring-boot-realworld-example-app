@@ -15,6 +15,7 @@ import io.spring.graphql.types.Profile;
 import io.spring.graphql.types.ProfilePayload;
 import lombok.AllArgsConstructor;
 
+
 @DgsComponent
 @AllArgsConstructor
 public class RelationMutation {

@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Import;
 
+
 @Import({ProfileQueryService.class, MyBatisUserRepository.class})
 public class ProfileQueryServiceTest extends DbTestBase {
   @Autowired private ProfileQueryService profileQueryService;

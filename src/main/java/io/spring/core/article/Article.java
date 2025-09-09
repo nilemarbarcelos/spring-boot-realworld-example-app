@@ -1,7 +1,5 @@
 package io.spring.core.article;
 
-import static java.util.stream.Collectors.toList;
-
 import io.spring.Util;
 import java.util.HashSet;
 import java.util.List;
@@ -10,6 +8,9 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.joda.time.DateTime;
+
+import static java.util.stream.Collectors.toList;
+
 
 @Getter
 @NoArgsConstructor

@@ -2,6 +2,7 @@ package io.spring.application.data;
 
 import lombok.Getter;
 
+
 @Getter
 public class UserWithToken {
   private String email;

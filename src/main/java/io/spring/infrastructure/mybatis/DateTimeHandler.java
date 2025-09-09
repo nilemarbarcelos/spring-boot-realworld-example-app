@@ -12,6 +12,7 @@ import org.apache.ibatis.type.MappedTypes;
 import org.apache.ibatis.type.TypeHandler;
 import org.joda.time.DateTime;
 
+
 @MappedTypes(DateTime.class)
 public class DateTimeHandler implements TypeHandler<DateTime> {
 

@@ -1,7 +1,5 @@
 package io.spring.application;
 
-import static java.util.stream.Collectors.toList;
-
 import io.spring.application.data.ArticleData;
 import io.spring.application.data.ArticleDataList;
 import io.spring.application.data.ArticleFavoriteCount;
@@ -19,6 +17,9 @@ import java.util.Set;
 import lombok.AllArgsConstructor;
 import org.joda.time.DateTime;
 import org.springframework.stereotype.Service;
+
+import static java.util.stream.Collectors.toList;
+
 
 @Service
 @AllArgsConstructor

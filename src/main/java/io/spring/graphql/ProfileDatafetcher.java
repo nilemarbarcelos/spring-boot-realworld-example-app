@@ -21,6 +21,7 @@ import io.spring.graphql.types.ProfilePayload;
 import java.util.Map;
 import lombok.AllArgsConstructor;
 
+
 @DgsComponent
 @AllArgsConstructor
 public class ProfileDatafetcher {

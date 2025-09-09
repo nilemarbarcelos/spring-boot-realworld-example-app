@@ -5,6 +5,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
+
 class DuplicatedUsernameValidator
     implements ConstraintValidator<DuplicatedUsernameConstraint, String> {
 
